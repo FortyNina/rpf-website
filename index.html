@@ -3,17 +3,29 @@
     <head>
       <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-      <div id="banner"><h1>RED PLANET FARMING</h1></div>
-      <div id="navBar">
-           <ul>
-               <li><a href="index.html">HOME</a></li>
-               <li><a href="info.html">INFO</a></li>
-               <li><a href="contact.html">CONTACT</a></li>
-               <li><a href="https://hubpages.com">HUBPAGES</a></li>
-           </ul>
-       </div>
-       <h2>ABOUT THE GAME</h2>
+
+    <! PARALLAX>
+
+    <script src="script.js"></script>
+    <div class = "keyart" id = "parallax">
+      <div class="keyart_layer parallax" id="keyart-2" parallax-speed="0"></div>
+
+      <div class="keyart_layer parallax" id="keyart-1" parallax-speed="100" style="transform: relative"></div>
+
+      </div>
+
+      <! CONTENT>
+    <div id = "mainContents">
+
+
+      <div class ="mainTitle"><h1>AGRICULTURALISTS WANTED!</h1></div>
+
+        <p class="bodyText">
+            The Interplanetary Department of Agriculture is looking for a new Director of Agriculture
+            for Mars.
+        </p>
+
+       <h2 class = "secondaryTitle">ABOUT THE GAME</h2>
         <p class="bodyText">
             Red Planet Farming is an educational strategy game that puts players in the
             shoes of the first Agricultural Director on Mars. Equipped with futuristic
@@ -30,20 +42,79 @@
             life to another planet.
           </p>
         <p class="bodyText">
-            Red Planet Farming has been in development since January 2018 and is the recipient of
+            Red Planet Farming has been in development since January 2019 and is the recipient of
             the 2019 NYU &amp Sloan Foundation Games Production grant.
         </p>
-        <div>
 
-          <img src="Images/peach.png">
+        <br>
+        <div class = "flex-container">
+            <div class = "flex-item-characters">
+                <img src="Images/peach.png">
+            </div>
+            <div class = "flex-item-characters">
+                <img src="Images/blueberry.png">
+            </div>
+            <div class = "flex-item-characters">
+                <img src="Images/avocado.png">
+            </div>
+            <div class = "flex-item-characters">
+                <img src="Images/bokChoy.png">
+            </div>
+            <div class = "flex-item-characters">
+                <img src="Images/cranberry.png">
+            </div>
+            <div class = "flex-item-characters">
+                <img src="Images/dragonfruit.png">
+            </div>
+        </div>
+        <br>
 
-        <div/>
-        <h3> ABOUT THE TEAM</h3>
+        <br>
+        <div class = "flex-container">
+            <div class = "flex-item-snapshots">
+                <img src = "Images/galeIm.png">;
+            </div>
+            <div class = "flex-item-snapshots">
+                <img src = "Images/vallesIm.png">;
+            </div>
+            <div class = "flex-item-snapshots">
+                <img src = "Images/utopiaIm.png">;
+            </div>
+        </div>
+        <br>
+
+
+        <h2 class = "secondaryTitle"> MEET THE TEAM</h2>
+
+        <h3 class = "secondaryTitle"> NINA DEMIRJIAN - LEAD DEVELOPER &amp DESIGNER</h3>
         <p class="bodyText">
-          Nina Demirjian is the lead developer and designer for Red Planet Farming. She recently graduated from New York University
+          Nina Demirjian recently graduated from New York University
           with a degree in Computer Science, and now works part-time as a developer at the American Museum of Natural History. She has
           been working on Red Planet Farming since January 2019.
-          </p>
+        </p>
+
+        <h3 class = "secondaryTitle"> NOAH LEE - ART DIRECTOR</h3>
+        <p class="bodyText">
+          Noah Lee is an undergraduate student at NYU's Tisch School of the Arts studying game design and
+          film & tv animation. Beyond school, there's not much going on.
+        </p>
+
+        <h3 class = "secondaryTitle"> SEAN PARK - CHARACTER ARTIST &amp ILLUSTRATOR</h3>
+        <p class="bodyText">
+          Sean Park is a recent graduate of the NYU Game Center who has always had an
+          interest in utilizing games to explore strange bite sized scenarios. Recently,
+          he has been having fun producing 2D art and animation.
+        </p>
+
+        <h3 class = "secondaryTitle"> SEAN PORIO - LEAD SOUND DESIGNER</h3>
+        <p class="bodyText">
+          Sean Porio is an undergraduate student at NYU Steinhardt studying music
+          technology and composition. He enjoys making electronics, sound design,
+          and writing music for video games and animation.
+        </p>
+
+
+
         <div>This is where I can place a copyright logo like this &copy;</div>
-    </body>
+        </div>
 </html>
