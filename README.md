@@ -1,2 +1,2 @@
 # rpf-website
-Website for Red Planet Farming Game
+Website I've been making for Red Planet Farming Game. HTML and CSS.
