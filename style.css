@@ -56,6 +56,13 @@ body {
   text-align: center;
 
 }
+.jobDesc{
+  color: pink;
+  font-family : 'Gugi', regular;
+  font-size : 50wv;
+  text-align: center;
+
+}
 
 .bodyText {
     color: white;
@@ -93,6 +100,18 @@ h1{
     padding-top: 20px;
 }
 
+h4{
+    font-family: 'Gugi', regular;
+    font-size: 1vw;
+    color: pink;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+  font-size: 3vw;
+}
+
 
 img {
     position: relative;
@@ -118,6 +137,10 @@ img {
 
 .flex-item-snapshots {
   max-width: 32%;
+}
+.flex-item-profiles{
+  max-width: 15%;
+
 }
 
 
