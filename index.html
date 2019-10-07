@@ -70,16 +70,31 @@
 
 
         <br>
-        <div class = "flex-container">
-            <div class = "flex-item-snapshots">
-                <img src = "Images/galeIm.png">;
-            </div>
-            <div class = "flex-item-snapshots">
-                <img src = "Images/vallesIm.png">;
-            </div>
-            <div class = "flex-item-snapshots">
-                <img src = "Images/utopiaIm.png">;
-            </div>
+        <div class="row">
+          <div class="column">
+            <img src="Images/galeIm.png" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/vallesIm.png" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/utopiaIm.png" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/medusaeIm.png" onclick="myFunction(this);">
+          </div>
+        </div>
+
+        <!-- The expanding image container -->
+        <div class="container">
+          <!-- Close the image -->
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+          <!-- Expanded image -->
+          <img id="expandedImg" style="width:100%">
+
+          <!-- Image text -->
+          <div id="imgtext"></div>
         </div>
         <br>
 
@@ -118,12 +133,9 @@
     <br>
       <br>
 
-
-
-
-
       <br>
       <br>
+
 
 
 
