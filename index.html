@@ -72,7 +72,7 @@
         <br>
         <div class="row">
           <div class="column">
-            <img src="Images/galeIm.png" onclick="myFunction(this);">
+            <img src="Images/galeIm.png" onclick="myFunction(this);" onload="myFunction(this);">
           </div>
           <div class="column">
             <img src="Images/vallesIm.png" onclick="myFunction(this);">
@@ -87,8 +87,6 @@
 
         <!-- The expanding image container -->
         <div class="container">
-          <!-- Close the image -->
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
           <!-- Expanded image -->
           <img id="expandedImg" style="width:100%">
@@ -102,29 +100,39 @@
 
         <h2 class = "secondaryTitle"> MEET THE TEAM</h2>
 
-        <br>
-        <br>
+
 
 
         <div class = "flex-container">
           <div class = "flex-item-profiles">
+            <div class = "zoom">
             <img src="Images/ninaCircle.png">
+          </div>
 
             <h3 class = "secondaryTitle"> NINA DEMIRJIAN </h3>
             <h4 class = "jobDesc"> LEAD DEVELOPER &amp DESIGNER </h4>
           </div>
           <div class = "flex-item-profiles">
+            <div class = "zoom">
+
             <img src="Images/noahCircle.png">
+          </div>
             <h3 class = "secondaryTitle"> NOAH LEE</h3>
             <h4 class = "jobDesc"> ART DIRECTOR </h4>
           </div>
           <div class = "flex-item-profiles">
+            <div class = "zoom">
             <img src="Images/sporioCircle.png">
+          </div>
+
             <h3 class = "secondaryTitle"> SEAN PORIO </h3>
             <h4 class = "jobDesc"> LEAD SOUND DESIGNER </h4>
           </div>
           <div class = "flex-item-profiles">
+          <div class = "zoom">
             <img src="Images/sparkCircle.png">
+          </div>
+
             <h3 class = "secondaryTitle"> SEAN PARK</h3>
             <h4 class = "jobDesc"> CHARACTER ARTIST &amp ILLUSTRATOR </h4>
           </div>

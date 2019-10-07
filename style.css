@@ -11,7 +11,6 @@ body {
   /* background-image: url('Images/starry.gif');
  background-size: 100% auto;
  background-repeat: repeat-y;
-
  margin: 0;
  padding: 0;
  border: 0;
@@ -210,8 +209,10 @@ img {
 .column {
   float: left;
   width: 20%;
-  padding: 10px;
+  padding: 20px;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Style the images inside the grid */
@@ -219,11 +220,14 @@ img {
   opacity: 0.8;
   cursor: pointer;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
 .column img:hover {
   opacity: 1;
+
 }
 
 /* Clear floats after the columns */
@@ -231,6 +235,8 @@ img {
   content: "";
   display: table;
   clear: both;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* The expanding image container (positioning is needed to position the close button and the text) */
@@ -251,7 +257,14 @@ img {
   font-size: 20px;
 }
 
-/* Closable button inside the image */
-.closebtn {
 
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */

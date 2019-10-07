@@ -32,5 +32,5 @@ function myFunction(imgs) {
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
 }
-
-document.body.onload =doParallax();
+document.body.onload = doParallax();
+document.body.onload = myFunction("Images/galeIm.png");
