@@ -76,6 +76,20 @@ body {
     z-index: 99;
     position: relative;
 }
+
+.subtitle {
+    color: white;
+    font-family : 'Gugi', regular;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 99;
+    position: relative;
+}
+
 .bio{
   color: pink;
   font-size : 45wv;
