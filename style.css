@@ -97,6 +97,7 @@ h1{
     margin: 0;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 h4{
@@ -111,11 +112,51 @@ h2{
   font-size: 3vw;
 }
 
+h5{
+  font-family: 'Gugi', regular;
+  font-size:  : 1.5vw;
+  color: pink;
+  padding-left: 170px;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: underline;
+  text-decoration-color: pink;
+
+}
+
+a:visited {
+  text-decoration: underline;
+  text-decoration-color: pink;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: pink;
+}
+
+a:active {
+  text-decoration: underline;
+  text-decoration-color: pink;
+
+
+}
+
 
 img {
     position: relative;
     width: 100%;
     margin:0;
+    /* background-position: bottom center; */
+}
+.left {
+    position: relative;
+    width: 10%;
+    margin:0;
+
+
     /* background-position: bottom center; */
 }
 
@@ -141,6 +182,16 @@ img {
 .flex-item-profiles{
   max-width: 15%;
 
+}
+.flex-item-press{
+  max-width: 25%;
+  padding-left: .02px;
+  padding-bottom: 50px;
+
+
+}
+.flex-item-banner{
+  max-width: 40%;
 }
 
 
