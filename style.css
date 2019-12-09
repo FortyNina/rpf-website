@@ -184,9 +184,10 @@ img {
 
 }
 .flex-item-press{
-  max-width: 25%;
-  padding-left: .02px;
-  padding-bottom: 50px;
+  max-width: 12%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
 
 
 }
