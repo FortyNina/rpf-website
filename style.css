@@ -400,8 +400,8 @@ img {
 .container {
   position: relative;
   display: none;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 7%;
+  padding-right: 0%;
   justify-content: center;
 }
 
