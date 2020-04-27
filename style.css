@@ -1,6 +1,8 @@
-<link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
 
-
+@font-face{
+  src: url(fonts/Gugi.ttf);
+  font-family: gug;
+}
 
 #banner {
   height: 0px;
@@ -27,7 +29,7 @@ body {
 
 .mainTitle{
   color: white;
-  font-family : 'Gugi', regular;
+  font-family : gug;
   font-size : 200%;
   text-align: center;
 
@@ -63,14 +65,14 @@ body {
 
 .secondaryTitle{
   color: white;
-  font-family : 'Gugi', regular;
+  font-family : gug;
   font-size : 50wv;
   text-align: center;
 
 }
 .jobDesc{
   color: pink;
-  font-family : 'Gugi', regular;
+  font-family : gug;
   font-size : 50wv;
   text-align: center;
 
@@ -78,7 +80,7 @@ body {
 
 .bodyText {
     color: white;
-    font-family : 'Gugi', regular;
+    font-family : gug;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 30px;
@@ -92,7 +94,7 @@ body {
 
 .bodyTextDark {
     color: black;
-    font-family : 'Gugi', regular;
+    font-family : gug;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 30px;
@@ -105,14 +107,14 @@ body {
 }
 .furtherResourcesTitle{
   color: black;
-  font-family : 'Gugi', regular;
+  font-family : gug;
   font-size : 50wv;
   text-align: center;
 }
 
 .returnToHomeTitle{
   color: white;
-  font-family : 'Gugi', regular;
+  font-family : gug;
   font-size : 20wv;
   text-align: left;
   margin-left: 20px;
@@ -121,7 +123,7 @@ body {
 .bio{
   color: pink;
   font-size : 45wv;
-  font-family : 'Gugi', regular;
+  font-family : gug;
   padding-left: 150px;
   padding-right: 150px;
   margin-left: auto;
@@ -133,7 +135,7 @@ body {
 }
 
 h1{
-    font-family: 'Gugi', regular;
+    font-family: gug;
     font-size: 4vw;
     color: white;
     margin: 0;
@@ -143,7 +145,7 @@ h1{
 }
 
 h4{
-    font-family: 'Gugi', regular;
+    font-family: gug;
     font-size: 1vw;
     color: pink;
     margin: 0;
@@ -155,11 +157,16 @@ h2{
 }
 
 h5{
-  font-family: 'Gugi', regular;
+  font-family: gug;
   font-size:  : 1.5vw;
   color: white;
   padding-left: 170px;
   text-align: left;
+}
+
+a{
+  text-decoration: underline;
+  text-decoration-color: pink;
 }
 
 a:link {
@@ -184,6 +191,11 @@ a:active {
   text-decoration-color: pink;
 
 
+}
+
+a{
+   text-decoration: underline;
+  text-decoration-color: pink;
 }
 
 
@@ -249,6 +261,7 @@ img {
   max-width: 15%;
 
 }
+
 .flex-item-press{
   max-width: 10.75%;
   padding-left: 0px;
@@ -267,7 +280,7 @@ img {
     background:clear;
     color: white;
     font-size: 2vw;
-    font-family: 'Gugi', regular;
+    font-family: gug;
     text-align: center;
     width:100%;
     max-width: 900px;
