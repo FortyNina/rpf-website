@@ -311,41 +311,41 @@ img {
 /* parallax*/
 
 .keyart, .keyart_layer {
-	height: 60vw;
+  height: 60vw;
     background-repeat: no-repeat;
 }
 
 .keyart {
-	position: relative;
-	z-index: -10;
+  position: relative;
+  z-index: -10;
 }
 
 .keyartNews, .keyart_layer_news {
-	height: 40vw;
+  height: 40vw;
     background-repeat: no-repeat;
 }
 
 .keyartNews {
-	position: relative;
-	z-index: -10;
+  position: relative;
+  z-index: -10;
 }
 
 
 .keyart_layer_news {
-	background-position: bottom;
-	background-size: 100% auto;
-	width: 100%;
+  background-position: bottom;
+  background-size: 100% auto;
+  width: 100%;
 }
 
 
 
 .keyart_layer {
-	background-position: bottom;
-	background-size: 100% auto;
-	width: 100%;
+  background-position: bottom;
+  background-size: 100% auto;
+  width: 100%;
 }
 .keyart_layer.parallax {
-	position: fixed;
+  position: fixed;
 }
 
 
